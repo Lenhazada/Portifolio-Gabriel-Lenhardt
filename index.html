@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portifólio Gabriel</title>
+</head>
+
+<body>
+    <div class="particulas"></div>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li><a href="#inicio" class="link-menu">Início</a></li>
+            <li><a href="#sobre" class="link-menu">Sobre</a></li>
+            <li><a href="#projetos" class="link-menu">Projetos</a></li>
+            <li><a href="#contato" class="link-menu">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <img src="/img/eu de frente.png" alt="Foto do Gabriel Lenhardt" class="foto-perfil">
+        <h1>Gabriel Lenhardt</h1>
+        <p class="cabecalho-subtitulo">Estudante de TI | Back end</p>
+    </main>
+
+    <section id="sobre" class="espacamento">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Meu nome é Gabriel Lenhardt, tenho 22 anos e estudo programação desde 2023,
+                embora meu interesse por tecnologia exista desde muito jovem. Comecei focado em hardware, mas ao longo
+                do tempo, passei a me aprofundar em programação.</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="espacamento">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="img/projeto1.png" alt="Imagem do projeto" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="projetos-card-titulo">DsList</h3>
+                    <p class="projetos-card-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+                        atque. Excepturi dignissimos dolor, quibusdam doloremque expedita illum eius voluptates ad quam,
+                        amet, sint repellat veritatis sapiente dolorem suscipit eos libero.</p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="img/projeto2.png" alt="Imagem do projeto" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="projetos-card-titulo">RentService</h3>
+                    <p class="projetos-card-descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+                        quod excepturi quaerat eligendi quae odit totam expedita voluptatem laudantium autem quibusdam,
+                        esse
+                        dolore labore voluptate perferendis. Provident, fugiat enim?</p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="img/projeto1.png" alt="Imagem do projeto" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="projetos-card-titulo"></h3>
+                    <p class="projetos-card-descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                        quiet, facilis ullam dolore ipsum iste ipsam harum consequatur, tenetur architecto odio ratione
+                        deleniti reiciendis eaque! Obcaecati, libero hic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div></div>
+    <section id="contato" class="espacamento">
+        <h2 class="contato-titulo">Entre em Contato</h2>
+
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhatsapp(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                <textarea placeholder="Digite sua Mensagem" class="campo-form" id="mensagem" rows="5"></textarea>
+            </div>
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+
+        </form>
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
