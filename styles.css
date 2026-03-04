@@ -100,6 +100,7 @@ h1 {
     font-size: 3rem;
     color: var(--claro);
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .sobre-caixa {
@@ -163,6 +164,47 @@ h1 {
 
 .projetos-card-descricao {
     margin-top: 5px;
+}
+
+.lista-cursos{
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.curso-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--maisEscuroRgba);
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: all 0.5s ease;
+}
+
+.curso-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px var(--secundaria);
+}
+
+.botao-certificado {
+    display: inline-block;
+    padding: 0.45rem 1rem;
+    background-color: var(--primaria);
+    color: var(--claro);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+.botao-certificado:hover {
+    background-color: var(--secundaria);
 }
 
 .contato-titulo {
