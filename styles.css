@@ -65,6 +65,7 @@ body {
 
 .cabecalho {
     min-height: 100vh;
+    scroll-margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,6 +91,10 @@ h1 {
 .cabecalho-subtitulo {
     font-size: 1.5rem;
     color: var(--claro);
+}
+
+#sobre{
+    scroll-margin-top: 80px;
 }
 
 .espacamento {
@@ -130,6 +135,11 @@ h1 {
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.link-card{
+    text-decoration: none;
+    color: inherit;
 }
 
 .projetos-card {
